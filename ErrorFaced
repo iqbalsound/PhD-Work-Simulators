@@ -1,18 +1,18 @@
 Showing Error while excuting from Ethernet
-Solution:
+**Solution:**
 	Run Following Command after Cloning GIT Repo
 	export SIMULATOR_EXTERNAL_IP=<your.server.ip>
 	Than Run
 	make docker_build_and_up
 
 
-Showing Error While Runing docker-compose up -d Shoung VERION Error
-Solution:
+Showing Error While **Runing docker-compose up -d** Shoung VERION Error
+**Solution:**
 	Open docker-compose.yml
 	Change 3.7 to 3.3 under VERSION at top of File
 
 
-Missing Docker-Compose Issue
+**Missing** Docker-Compose Issue
 Solution:
 	in ROOT Mode
 	curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
@@ -23,7 +23,7 @@ Solution:
 	docker-compose version 1.21.2, build a133471
 		
 
-Used on RockyLinux:
+Used on **RockyLinux**:
 	Type:
 	cat /etc/os-release
 		NAME="Rocky Linux"
